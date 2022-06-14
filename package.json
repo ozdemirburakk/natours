@@ -1,0 +1,19 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "langing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozdemirburakk/natours.git"
+  },
+  "author": "bureact",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozdemirburakk/natours/issues"
+  },
+  "homepage": "https://github.com/ozdemirburakk/natours#readme"
+}
