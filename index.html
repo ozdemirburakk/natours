@@ -239,8 +239,8 @@
       <section class="section-stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
-            <source src="img/video.mp4" type="video/mp4">
-            <source src="img/video.webm" type="video/webm">
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
             Your broeser is not supported!
           </video>
         </div>
@@ -251,17 +251,24 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-8.jpg" alt="person on a tour" class="story__img">
-              <figcaption class="story__caption">
-                Marry Smith
-              </figcaption>
+              <img
+                src="img/nat-8.jpg"
+                alt="person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Marry Smith</figcaption>
             </figure>
             <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                magni tenetur non eligendi ex iure tempora quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                magni tenetur non eligendi ex iure tempora quidem..Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                magni tenetur non</p>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                magni tenetur non eligendi ex iure tempora quidem.Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Nam magni tenetur
+                non eligendi ex iure tempora quidem..Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Nam magni tenetur non
+              </p>
             </div>
           </div>
         </div>
@@ -269,17 +276,24 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-9.jpg" alt="person on a tour" class="story__img">
-              <figcaption class="story__caption">
-               Jack Wilson
-              </figcaption>
+              <img
+                src="img/nat-9.jpg"
+                alt="person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Jack Wilson</figcaption>
             </figure>
             <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">WOW! My life is completely diffirent now</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                magni tenetur non eligendi ex iure tempora quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                magni tenetur non eligendi ex iure tempora quidem..Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                magni tenetur non</p>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                WOW! My life is completely diffirent now
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                magni tenetur non eligendi ex iure tempora quidem.Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Nam magni tenetur
+                non eligendi ex iure tempora quidem..Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Nam magni tenetur non
+              </p>
             </div>
           </div>
         </div>
@@ -299,13 +313,56 @@
               </div>
               <form action="#" class="form">
                 <div class="form__group">
-                  <input id="name" type="text" class="form__input" placeholder="Full Name" required />
+                  <input
+                    id="name"
+                    type="text"
+                    class="form__input"
+                    placeholder="Full Name"
+                    required
+                  />
                   <label for="name" class="form__label">Full Name</label>
                 </div>
 
                 <div class="form__group">
-                  <input id="email" type="email" class="form__input" placeholder="Email address" required />
+                  <input
+                    id="email"
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    required
+                  />
                   <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="form__group">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span> Small tour
+                      group</label
+                    >
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>Large tour
+                      group</label
+                    >
+                  </div>
+                </div>
+                <div class="form__group">
+                  <button class="btn btn--green">Next Step</button>
                 </div>
               </form>
             </div>
